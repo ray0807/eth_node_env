@@ -1,0 +1,1 @@
+geth  --datadir block   --identity "DouBi" --rpc --rpcport 12345 --rpccorsdomain "*"  --port 12346 --networkid 523 init genesis.json
