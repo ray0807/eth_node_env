@@ -5,6 +5,8 @@ MAINTAINER wanglei wanglei@xiaomingtaiji.com
 # 安装自定义package
 RUN apt-get update -y && apt-get install -y software-properties-common  && add-apt-repository -y ppa:ethereum/ethereum && apt-get update -y && apt-get install -y ethereum
 
+ADD ./genesis.json /eth/
+
 WORKDIR /eth/
 
 # docker build -t xmtj/eth_node_env .
