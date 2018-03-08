@@ -9,6 +9,7 @@ ADD ./genesis.json /eth/
 
 WORKDIR /eth/
 
+
 # docker build -t xmtj/eth_node_env .
 
 
